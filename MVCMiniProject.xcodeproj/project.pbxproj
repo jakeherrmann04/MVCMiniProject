@@ -15,6 +15,8 @@
 		23C0EE621BD94B1200855533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C0EE601BD94B1200855533 /* LaunchScreen.storyboard */; };
 		23C0EE6D1BD94B1200855533 /* MVCMiniProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C0EE6C1BD94B1200855533 /* MVCMiniProjectTests.swift */; };
 		23C0EE781BD94B1300855533 /* MVCMiniProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C0EE771BD94B1300855533 /* MVCMiniProjectUITests.swift */; };
+		23C0EE861BD94C4F00855533 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C0EE851BD94C4F00855533 /* Student.swift */; settings = {ASSET_TAGS = (); }; };
+		23C0EE8A1BD94D3600855533 /* StudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C0EE891BD94D3600855533 /* StudentController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		23C0EE731BD94B1200855533 /* MVCMiniProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVCMiniProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C0EE771BD94B1300855533 /* MVCMiniProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVCMiniProjectUITests.swift; sourceTree = "<group>"; };
 		23C0EE791BD94B1300855533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C0EE851BD94C4F00855533 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		23C0EE891BD94D3600855533 /* StudentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				23C0EE541BD94B1200855533 /* AppDelegate.swift */,
 				23C0EE561BD94B1200855533 /* ViewController.swift */,
+				23C0EE851BD94C4F00855533 /* Student.swift */,
+				23C0EE891BD94D3600855533 /* StudentController.swift */,
 				23C0EE581BD94B1200855533 /* Main.storyboard */,
 				23C0EE5E1BD94B1200855533 /* Assets.xcassets */,
 				23C0EE601BD94B1200855533 /* LaunchScreen.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C0EE8A1BD94D3600855533 /* StudentController.swift in Sources */,
 				23C0EE571BD94B1200855533 /* ViewController.swift in Sources */,
 				23C0EE5D1BD94B1200855533 /* MVCMiniProject.xcdatamodeld in Sources */,
 				23C0EE551BD94B1200855533 /* AppDelegate.swift in Sources */,
+				23C0EE861BD94C4F00855533 /* Student.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
